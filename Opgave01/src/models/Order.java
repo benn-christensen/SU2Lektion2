@@ -8,7 +8,7 @@ public class Order {
     public double beregnSamletPris() {
         double samletpris = 0;
         for (OrderLinje orderlinje : orderlinjer) {
-            samletpris += orderlinje.be
+            samletpris += orderlinje.hentLinjePris();
         }
     }
 }
