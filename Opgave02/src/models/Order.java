@@ -1,5 +1,5 @@
 package models;
-
+import java.util.ArrayList;
 public class Order {
     private ArrayList<Orderlinje> orderlinjer = new ArrayList<>();
     public void tilføjOrderlinje(int antal, Vare vare) {

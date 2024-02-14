@@ -1,4 +1,6 @@
-package controller;public class Controller {
+package controller;
+
+public class Controller {
     public static void main(String[] args) {
         Vare piratos = new Vare("Piratos", 0.25);
         Vare skumbanan = new Vare("Skumbanan", 2);

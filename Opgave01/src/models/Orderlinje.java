@@ -1,4 +1,5 @@
-package models;public class Orderlinje {
+package models;
+public class Orderlinje {
     private int antal;
     private Vare vare;
 
