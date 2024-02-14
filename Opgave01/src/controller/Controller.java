@@ -7,6 +7,5 @@ public class Controller {
         order.tilføjOrderlinje(piratos, 20);
         order.tilføjOrderlinje(skumbanan, 10);
         order.beregnSamletPris();
-
     }
 }
